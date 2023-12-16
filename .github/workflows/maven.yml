@@ -36,6 +36,6 @@ jobs:
       with:
         image: saraob/product-service
         registry: docker.io
-        username: ${{ secrets.DOCKERNAME }}
-        password: ${{ secrets.DOCKERPASSWORD }}
+        username: ${{ secrets.DOCKER_NAME }}
+        password: ${{ secrets.DOCKER_PASSWORD }}
 

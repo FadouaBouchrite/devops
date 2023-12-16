@@ -36,6 +36,6 @@ jobs:
       with:
         image: fadouabouchrite/product-service
         registry: docker.io
-        username: ${{ secrets.DOCKER_NAME }}
-        password: ${{ secrets.DOCKER_PASSWORD }}
+        username: ${{secrets.DOCKER_NAME}}
+        password: ${{secrets.DOCKER_PASSWORD}}
 
